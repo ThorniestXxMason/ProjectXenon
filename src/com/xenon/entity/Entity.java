@@ -3,8 +3,17 @@ package com.xenon.entity;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
-
 import com.xenon.engine.World;
+
+/**
+ * Project Xenon
+ * 
+ * Entity
+ * 
+ * @author ThorniestXxMason
+ * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
+ * 
+ */
 
 public abstract class Entity {
 

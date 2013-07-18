@@ -11,6 +11,16 @@ import org.newdawn.slick.SpriteSheet;
 
 import com.xenon.engine.World;
 
+/**
+ * Project Xenon
+ * 
+ * Player
+ * 
+ * @author ThorniestXxMason
+ * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
+ * 
+ */
+
 public class Player extends Entity {
 
 	Image image;

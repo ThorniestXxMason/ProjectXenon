@@ -13,16 +13,26 @@ import org.newdawn.slick.state.StateBasedGame;
 import org.newdawn.slick.state.transition.FadeInTransition;
 import org.newdawn.slick.state.transition.FadeOutTransition;
 
-import com.xenon.engine.Epslon;
+import com.xenon.engine.Xenon;
 import com.xenon.file.SettingsFile;
+
+/**
+ * Project Xenon
+ * 
+ * OptionsState
+ * 
+ * @author ThorniestXxMason
+ * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
+ * 
+ */
 
 public class OptionsState extends BasicGameState {
 
 	int stateID = -1;
 
-	int w = Epslon.WIDTH;
-	int h = Epslon.HEIGHT;
-	float s = Epslon.SCALE;
+	int w = Xenon.WIDTH;
+	int h = Xenon.HEIGHT;
+	float s = Xenon.SCALE;
 
 	public static boolean fullToggle = false;
 	public static int resPos = 2;
@@ -70,7 +80,7 @@ public class OptionsState extends BasicGameState {
 				back.getHeight() * s, back.getWidth() * s)) {
 			back = new Image("gfx/options_menu/back_hover.png");
 			if (input.isMousePressed(0)) {
-				sbg.enterState(Epslon.MAINMENUSTATE, new FadeOutTransition(),
+				sbg.enterState(Xenon.MAINMENUSTATE, new FadeOutTransition(),
 						new FadeInTransition());
 			}
 		} else {

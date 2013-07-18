@@ -15,7 +15,17 @@ import com.xenon.state.MainMenuState;
 import com.xenon.state.OptionsState;
 import com.xenon.state.PlayState;
 
-public class Epslon extends StateBasedGame {
+/**
+ * Project Xenon
+ * 
+ * Xenon
+ * 
+ * @author ThorniestXxMason
+ * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
+ * 
+ */
+
+public class Xenon extends StateBasedGame {
 
 	public static final String NAME = "Project Xenon";
 	public static final int WIDTH = 1920;
@@ -26,7 +36,7 @@ public class Epslon extends StateBasedGame {
 	public static final int OPTIONSSTATE = 1;
 	public static final int PLAYSTATE = 2;
 
-	public Epslon() {
+	public Xenon() {
 		super(NAME);
 	}
 
@@ -38,7 +48,7 @@ public class Epslon extends StateBasedGame {
 	}
 
 	public static void main(String[] args) throws SlickException {
-		AppGameContainer app = new AppGameContainer(new Epslon());
+		AppGameContainer app = new AppGameContainer(new Xenon());
 
 		init();
 

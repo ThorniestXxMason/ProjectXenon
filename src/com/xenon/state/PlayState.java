@@ -11,17 +11,27 @@ import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 import org.newdawn.slick.tiled.TiledMap;
 
-import com.xenon.engine.Epslon;
+import com.xenon.engine.Xenon;
 import com.xenon.engine.World;
 import com.xenon.entity.Player;
+
+/**
+ * Project Xenon
+ * 
+ * PlayState
+ * 
+ * @author ThorniestXxMason
+ * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
+ * 
+ */
 
 public class PlayState extends BasicGameState {
 
 	int stateID = -1;
 
-	int w = Epslon.WIDTH;
-	int h = Epslon.HEIGHT;
-	float s = Epslon.SCALE;
+	int w = Xenon.WIDTH;
+	int h = Xenon.HEIGHT;
+	float s = Xenon.SCALE;
 
 	Image map;
 	World world;

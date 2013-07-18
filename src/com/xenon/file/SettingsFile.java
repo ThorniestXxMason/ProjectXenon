@@ -16,6 +16,16 @@ import org.xml.sax.SAXException;
 
 import com.xenon.state.OptionsState;
 
+/**
+ * Project Xenon
+ * 
+ * SettingsFile
+ * 
+ * @author ThorniestXxMason
+ * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
+ * 
+ */
+
 public class SettingsFile {
 
 	public static void save() throws IOException {

@@ -11,15 +11,25 @@ import org.newdawn.slick.state.StateBasedGame;
 import org.newdawn.slick.state.transition.FadeInTransition;
 import org.newdawn.slick.state.transition.FadeOutTransition;
 
-import com.xenon.engine.Epslon;
+import com.xenon.engine.Xenon;
+
+/**
+ * Project Xenon
+ * 
+ * MainMenuState
+ * 
+ * @author ThorniestXxMason
+ * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
+ * 
+ */
 
 public class MainMenuState extends BasicGameState {
 
 	int stateID = -1;
 
-	int w = Epslon.WIDTH;
-	int h = Epslon.HEIGHT;
-	float s = Epslon.SCALE;
+	int w = Xenon.WIDTH;
+	int h = Xenon.HEIGHT;
+	float s = Xenon.SCALE;
 
 	public static Image background = null;
 	public static Image play = null;
@@ -67,7 +77,7 @@ public class MainMenuState extends BasicGameState {
 				play.getHeight() * s, play.getWidth() * s)) {
 			play = new Image("gfx/main_menu/play_hover.png");
 			if (input.isMousePressed(0)) {
-				sbg.enterState(Epslon.PLAYSTATE, new FadeOutTransition(),
+				sbg.enterState(Xenon.PLAYSTATE, new FadeOutTransition(),
 						new FadeInTransition());
 			}
 		} else {
@@ -78,7 +88,7 @@ public class MainMenuState extends BasicGameState {
 				play.getWidth() * s)) {
 			options = new Image("gfx/main_menu/options_hover.png");
 			if (input.isMousePressed(0)) {
-				sbg.enterState(Epslon.OPTIONSSTATE, new FadeOutTransition(),
+				sbg.enterState(Xenon.OPTIONSSTATE, new FadeOutTransition(),
 						new FadeInTransition());
 			}
 		} else {

@@ -1,6 +1,17 @@
 package com.xenon.engine;
 
 import java.util.ArrayList;
+
+/**
+ * Project Xenon
+ * 
+ * World
+ * 
+ * @author ThorniestXxMason
+ * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
+ * 
+ */
+
 import java.util.List;
 
 import org.newdawn.slick.GameContainer;
