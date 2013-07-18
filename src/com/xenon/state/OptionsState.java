@@ -1,4 +1,4 @@
-package com.epslon.state;
+package com.xenon.state;
 
 import java.io.IOException;
 
@@ -13,8 +13,8 @@ import org.newdawn.slick.state.StateBasedGame;
 import org.newdawn.slick.state.transition.FadeInTransition;
 import org.newdawn.slick.state.transition.FadeOutTransition;
 
-import com.epslon.engine.Epslon;
-import com.epslon.file.SettingsFile;
+import com.xenon.engine.Epslon;
+import com.xenon.file.SettingsFile;
 
 public class OptionsState extends BasicGameState {
 

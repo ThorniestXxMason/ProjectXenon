@@ -1,4 +1,4 @@
-package com.epslon.engine;
+package com.xenon.engine;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,9 @@ import java.util.List;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
-import com.eplson.entity.Entity;
-import com.eplson.entity.Player;
+
+import com.xenon.entity.Entity;
+import com.xenon.entity.Player;
 
 public class World {
 

@@ -1,4 +1,4 @@
-package com.epslon.file;
+package com.xenon.file;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -14,7 +14,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import com.epslon.state.OptionsState;
+import com.xenon.state.OptionsState;
 
 public class SettingsFile {
 

@@ -1,4 +1,4 @@
-package com.epslon.engine;
+package com.xenon.engine;
 
 import java.io.IOException;
 
@@ -10,10 +10,10 @@ import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.StateBasedGame;
 import org.xml.sax.SAXException;
 
-import com.epslon.file.SettingsFile;
-import com.epslon.state.MainMenuState;
-import com.epslon.state.OptionsState;
-import com.epslon.state.PlayState;
+import com.xenon.file.SettingsFile;
+import com.xenon.state.MainMenuState;
+import com.xenon.state.OptionsState;
+import com.xenon.state.PlayState;
 
 public class Epslon extends StateBasedGame {
 

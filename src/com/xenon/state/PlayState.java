@@ -1,4 +1,4 @@
-package com.epslon.state;
+package com.xenon.state;
 
 import org.newdawn.slick.Animation;
 import org.newdawn.slick.GameContainer;
@@ -11,9 +11,9 @@ import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 import org.newdawn.slick.tiled.TiledMap;
 
-import com.eplson.entity.Player;
-import com.epslon.engine.Epslon;
-import com.epslon.engine.World;
+import com.xenon.engine.Epslon;
+import com.xenon.engine.World;
+import com.xenon.entity.Player;
 
 public class PlayState extends BasicGameState {
 

@@ -1,10 +1,10 @@
-package com.eplson.entity;
+package com.xenon.entity;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
 
-import com.epslon.engine.World;
+import com.xenon.engine.World;
 
 public abstract class Entity {
 

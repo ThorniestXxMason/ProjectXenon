@@ -1,4 +1,4 @@
-package com.eplson.entity;
+package com.xenon.entity;
 
 import org.lwjgl.input.Keyboard;
 import org.newdawn.slick.Animation;
@@ -9,7 +9,7 @@ import org.newdawn.slick.Input;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.SpriteSheet;
 
-import com.epslon.engine.World;
+import com.xenon.engine.World;
 
 public class Player extends Entity {
 

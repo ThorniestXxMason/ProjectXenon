@@ -1,4 +1,4 @@
-package com.epslon.state;
+package com.xenon.state;
 
 import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
@@ -11,7 +11,7 @@ import org.newdawn.slick.state.StateBasedGame;
 import org.newdawn.slick.state.transition.FadeInTransition;
 import org.newdawn.slick.state.transition.FadeOutTransition;
 
-import com.epslon.engine.Epslon;
+import com.xenon.engine.Epslon;
 
 public class MainMenuState extends BasicGameState {
 
